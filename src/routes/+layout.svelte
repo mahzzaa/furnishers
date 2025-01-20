@@ -105,7 +105,7 @@
 						{#each ['Home', 'About Us', 'Products', 'FAQ', 'Contact'] as link, i}
 							<a
 								class="font-medium transition-all duration-200 ease-in-out border-b-2 border-transparent text-surface-900 dark:text-surface-100 focus:text-warning-500 focus:border-warning-500 dark:focus:border-warning-500 hover:text-warning-500 dark:hover:text-warning-500 hover:border-warning-500
-					{link === 'FAQ' || link === 'About Us' ? 'hidden md:block' : ''}"
+					{link === 'Home' || link === 'FAQ' || link === 'About Us' ? 'hidden md:block' : ''}"
 								href="#"
 								target="_blank"
 								rel="noreferrer"
