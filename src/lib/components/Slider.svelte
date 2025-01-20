@@ -139,10 +139,10 @@
 	}
 	.onedown,
 	.oneup {
-		height: 10px;
+		height: 12px;
 	}
 	.twodown,
 	.twoup {
-		height: 5px;
+		height: 8px;
 	}
 </style>
