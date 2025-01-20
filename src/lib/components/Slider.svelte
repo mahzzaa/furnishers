@@ -45,7 +45,7 @@
 				<div
 					class="transition-transform rounded-md shadow-lg bg-surface-300 dark:bg-surface-900 hover:scale-105 hover:shadow-2xl"
 				>
-					<div class="z-40 p-10 space-y-3 bg-surface-800">
+					<div class="z-40 p-10 space-y-3 2xl:p-10 xl:p-10 lg:p-10 md:p-14 bg-surface-800">
 						<!-- icon -->
 						<div class="w-10 h-10 p-1.5 rounded-full" style="background-color: {slider.color};">
 							{@html slider.icon}

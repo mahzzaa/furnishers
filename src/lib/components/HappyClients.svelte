@@ -36,12 +36,12 @@
 	<!-- backgorund image -->
 
 	<img
-		class="absolute top-0 h-full -left-10 w-[600px] opacity-50 -z-10"
+		class="absolute 2xl:block xl:block lg:block md:block hidden top-0 h-full -left-10 w-[600px] opacity-50 -z-10"
 		src={networkDots}
 		alt="network-dots"
 	/>
 	<img
-		class="absolute -top-10 h-[120%] -left-10 w-[500px] opacity-20 -z-10"
+		class="absolute 2xl:block xl:block lg:block md:block hidden -top-10 h-[120%] -left-10 w-[500px] opacity-20 -z-10"
 		src={networkDots}
 		alt="network-dots"
 	/>
@@ -86,11 +86,11 @@
 
 	<!-- cards -->
 	<div
-		class="grid w-4/5 grid-cols-1 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 2xl:gap-x-5 xl:gap-x-5 lg:gap-x-5 md:gap-x-5 gap-x-0 2xl:gap-y-0 xl:gap-y-0 lg:gap-y-0 md:gap-y-0 gap-y-5"
+		class="grid w-4/5 grid-cols-1 2xl:w-4/5 xl:w-4/5 lg:w-4/5 md:11/12 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 2xl:gap-x-5 xl:gap-x-5 lg:gap-x-5 md:gap-x-5 gap-x-0 2xl:gap-y-0 xl:gap-y-0 lg:gap-y-0 md:gap-y-0 gap-y-5"
 	>
 		{#each happyClients as happyClient}
 			<div
-				class="relative z-30 p-10 space-y-3 transition-transform rounded-md shadow-lg bg-surface-300 dark:bg-surface-900 hover:scale-105 hover:shadow-2xl"
+				class="relative z-30 p-10 space-y-3 transition-transform rounded-md shadow-lg 2xl:p-10 xl:p-10 lg:p-10 md:p-8 bg-surface-300 dark:bg-surface-900 hover:scale-105 hover:shadow-2xl"
 			>
 				<!-- decoration -->
 				<div class="absolute top-3 left-3">
@@ -185,7 +185,11 @@
 				</p>
 				<div class="flex items-start justify-start space-x-3">
 					<!-- avatar -->
-					<img class="w-12 h-12 rounded-full" src={happyClient.avatar} alt="avatar" />
+					<img
+						class="w-12 h-12 rounded-full 2xl:w-12 xl:w-12 lg:w-12 md:w-10 2xl:h-12 xl:h-12 lg:h-12 md:h-10"
+						src={happyClient.avatar}
+						alt="avatar"
+					/>
 					<div class="flex flex-col items-start justify-center">
 						<!-- name -->
 						<p class="text-sm font-bold">

@@ -57,11 +57,10 @@
 		<!-- right -->
 		<div class="relative z-0 2xl:mt-20 xl:mt-20 lg:mt-20 md:mt-28 mt-28">
 			<!-- upper image -->
-
 			<div
-				class="absolute z-10 w-64 -top-20 2xl:right-5 xl:right-5 lg:right-5 md:-right-10 -right-10"
+				class="absolute z-10 w-56 2xl:w-64 xl:w-64 lg:w-64 md:w-64 -top-20 2xl:right-5 xl:right-5 lg:right-5 md:-right-10 -right-10"
 			>
-				<div class="relative w-64">
+				<div class="relative w-56 2xl:w-64 xl:w-64 lg:w-64 md:w-64">
 					<!-- squares -->
 					<!-- right-top-right -->
 					<div class="absolute top-0 right-0 w-2 h-2 bg-warning-500"></div>
@@ -72,14 +71,16 @@
 					<!-- right -->
 					<div class="absolute right-0.5 h-full w-[1px] bg-warning-500 opacity-70"></div>
 
-					<div class="flex items-center justify-center w-64 pt-6 pr-6">
+					<div
+						class="flex items-center justify-center w-56 pt-6 pr-6 2xl:w-64 xl:w-64 lg:w-64 md:w-64"
+					>
 						<img src={sofaOrange} alt="sofa-orange" class="rounded-md w-fit h-fit" />
 					</div>
 				</div>
 			</div>
 			<!-- lower image -->
 			<div class=" -z-0">
-				<div class="relative w-[400px]">
+				<div class="relative 2xl:w-[400px] xl:w-[400px] lg:w-[400px] md:w-[400px] w-[300px]">
 					<!-- squares -->
 					<!-- right-top-right -->
 					<div class="absolute bottom-0 left-0 w-2 h-2 bg-warning-500"></div>
@@ -90,8 +91,14 @@
 					<!-- right -->
 					<div class="absolute left-0.5 h-full w-[1px] bg-warning-500 opacity-70"></div>
 
-					<div class="flex items-center justify-center pb-6 pl-6 w-[400px]">
-						<img src={sofaDarkBlue} alt="sofa-orange" class="h-64 rounded-md w-[400px]" />
+					<div
+						class="flex items-center justify-center pb-6 pl-6 2xl:w-[400px] xl:w-[400px] lg:w-[400px] md:w-[400px] w-[300px]"
+					>
+						<img
+							src={sofaDarkBlue}
+							alt="sofa-orange"
+							class="h-64 rounded-md 2xl:w-[400px] xl:w-[400px] lg:w-[400px] md:w-[400px] w-[300px]"
+						/>
 					</div>
 				</div>
 			</div>

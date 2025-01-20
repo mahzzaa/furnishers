@@ -45,25 +45,25 @@
 	>
 		<!-- Uber Eats -->
 		<img
-			class="w-24 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
+			class="w-20 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
 			src={uberEats}
 			alt="uber-eats"
 		/>
 		<!-- Slack -->
 		<img
-			class="w-24 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
+			class="w-20 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
 			src={slack}
 			alt="slack"
 		/>
 		<!-- Microsoft -->
 		<img
-			class="w-24 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
+			class="w-20 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
 			src={microsoft}
 			alt="microsoft"
 		/>
 		<!-- ICT HUB -->
 		<img
-			class="w-24 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
+			class="w-20 transition 2xl:w-32 xl:w-32 lg:w-32 md:w-32 hover:opacity-90 hover:scale-105"
 			src={ict}
 			alt="ict-hub"
 		/>
